@@ -1,0 +1,21 @@
+
+
+syntax = "proto2";
+
+package MMPro.micromsg;
+
+import "BaseRequest.proto";
+
+
+message BizProfileV2Req {
+	required BaseRequest _BaseRequest = 1;
+	optional string      _BizUserName = 2;
+	optional uint32 	 _ActionType = 3;
+	optional bytes 		 _Offset = 4;
+	optional uint32 	 _PageSize = 5;
+	optional uint64      _TmplControlFlag = 6;
+	optional uint32      _BizSessionId = 7;
+	optional uint32      _Sence = 8;
+	optional string      _SearchClickId = 12;
+	optional uint32      _ShowType = 13;
+}

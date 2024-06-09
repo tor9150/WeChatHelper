@@ -1,0 +1,11 @@
+syntax = "proto2";
+
+package MMPro.micromsg;
+
+message SnsPostOperationFields {
+	optional string _ShareUrlOriginal = 1;
+	optional string _ShareUrlOpen = 2;
+	optional string _JsAppId = 3;
+	optional uint32 _ContactTagCount = 4;
+	optional uint32 _TempUserCount = 5;
+}

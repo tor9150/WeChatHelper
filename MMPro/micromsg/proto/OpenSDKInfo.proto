@@ -1,0 +1,8 @@
+syntax = "proto2";
+
+package MMPro.micromsg;
+
+message OpenSDKInfo {
+	optional uint32   _TokenValid = 1;
+	optional string   _PackageName = 2;
+}

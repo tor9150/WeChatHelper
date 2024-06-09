@@ -1,0 +1,14 @@
+syntax = "proto2";
+
+package MMPro.micromsg;
+
+import "BaseRequest.proto";
+
+
+message ReportClientCheckRequest {
+	required BaseRequest _BaseRequest = 1;
+	optional bytes  	_ClientCheckData = 2;
+	optional int32_t 	_Context = 3;
+	optional string 	_ExtSpamInfo = 4;
+	optional int64		_Timestamp = 5;
+}

@@ -1,0 +1,11 @@
+syntax = "proto2";
+package MMPro.micromsg;
+
+import "TransferJsApiHeader.proto";
+
+message JsApiResponse {
+	optional int32 	_Ret = 1;
+	optional string _ErrorMsg = 2;
+	optional string _RespJson = 3;
+	repeated TransferJsApiHeader _Header = 4;
+}

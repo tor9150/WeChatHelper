@@ -1,0 +1,20 @@
+syntax = "proto2";
+package MMPro.micromsg;
+
+import "BaseRequest.proto";
+import "JsApiRequest.proto";
+import "SKBuiltinBuffer_t.proto";
+
+message H5ExtTransferRequest {
+	required BaseRequest _BaseRequest = 1;
+	optional JsApiRequest _JsApiRequest = 2;
+	optional string       _H5Authtoken = 3;
+	optional SKBuiltinBuffer_t       _ClientCheckData = 4;
+	optional string		  _H5Url = 5;
+	optional uint32       _JsApiControlBytesIndex = 6;
+	optional string 	  _Scope = 7;
+	optional string       _Pubkeytoken = 8;
+	optional string       _AppID = 9;
+	optional uint32 	  _Scene = 10;
+	optional string       _RouteTag = 11;
+}

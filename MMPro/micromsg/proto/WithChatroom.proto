@@ -1,0 +1,9 @@
+syntax = "proto2";
+
+package MMPro.micromsg;
+
+message WithChatroom {
+	optional string 			_ChatroomId = 1;
+	optional uint32 			_WithChatroomUserListCount = 2;
+//	optional WithChatroomUser 	_WithChatroomUserListList = 3;
+}	
