@@ -1,8 +1,0 @@
-syntax = "proto2";
-
-package MMPro.micromsg;
-
-
-message SKBuiltinDouble64_t {
-	required double _dVal = 1;
-}

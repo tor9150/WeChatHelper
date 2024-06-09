@@ -1,8 +1,0 @@
-syntax = "proto2";
-
-package MMPro.micromsg;
-
-
-message GeneralShareBaseInfo {
-	required uint32 _DestType = 1;
-}

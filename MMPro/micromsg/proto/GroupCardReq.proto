@@ -1,8 +1,0 @@
-syntax = "proto2";
-
-package MMPro.micromsg;
-
-
-message GroupCardReq {
-	optional string _GroupCardName = 1;
-}

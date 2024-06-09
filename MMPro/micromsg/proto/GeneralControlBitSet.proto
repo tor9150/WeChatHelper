@@ -1,8 +1,0 @@
-syntax = "proto2";
-
-package MMPro.micromsg;
-
-
-message GeneralControlBitSet {
-	required uint32 _BitValue = 1;
-}

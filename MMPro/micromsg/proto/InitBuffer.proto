@@ -1,8 +1,0 @@
-syntax = "proto2";
-
-package MMPro.micromsg;
-
-
-message InitBuffer {
-	required uint32 _MaxSyncKey = 1;
-}

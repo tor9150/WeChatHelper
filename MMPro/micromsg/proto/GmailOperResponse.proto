@@ -1,8 +1,0 @@
-syntax = "proto2";
-
-package MMPro.micromsg;
-
-
-message GmailOperResponse {
-	required uint32 _RetCode = 1;
-}

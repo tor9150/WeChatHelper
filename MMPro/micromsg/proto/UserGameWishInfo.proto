@@ -1,9 +1,0 @@
-syntax = "proto2";
-
-package MMPro.micromsg;
-
-import "UserGameInfo.proto";
-
-message UserGameWishInfo {
-	required UserGameInfo _UserInfo = 1;
-}
